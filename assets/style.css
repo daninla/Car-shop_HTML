@@ -236,3 +236,20 @@ address p{
     align-items: center;
     justify-content: center;
 }
+
+.table{
+    border: #555 2px solid;
+    border-collapse: collapse;
+    margin: auto;
+}
+.table > thead > tr > th{
+    border: #555 2px solid;
+    padding: 5px;
+    background-color: #ffc107af;
+}
+
+.table > tbody > tr > td{
+    border: #555 2px solid;
+    padding: 5px;
+    text-align: center;
+}
