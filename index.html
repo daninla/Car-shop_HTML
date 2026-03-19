@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/style.css">
-    <link rel="shortcut icon" href="assets/icons/car.png" type="image/png">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/icons/car.png" type="./image/png">
     <title>Car Shop</title>
   </head>
   <body>
@@ -14,9 +14,11 @@
                 <li><a href="#bmw">BMW</a></li>
                 <li><a href="#ford">Ford</a></li>
                 <li><a href="#toyota">Toyota</a></li>
+                <li><a href="#table">Table</a></li>
+                <li><a href="./form.html">Order</a></li>
             </ul>
         </nav>
-        <div class="logo"><img src="assets/icons/logo.png" alt="Car Icon"></div>
+        <div class="logo"><img src="./assets/icons/logo.png" alt="Car Icon"></div>
     </header>
 
     <main>
@@ -25,7 +27,7 @@
         <article id="bmw" class="car-brand">
             <a href="#" class="back-to-top">↑ Back to top</a>
             <div class="car-title">
-                <img class="icons-car" src="assets/icons/bmw.jpeg" alt="BMW Car">
+                <img class="icons-car" src="./assets/icons/bmw.jpeg" alt="BMW Car">
                 <h2>BMW</h2>
             </div>
             <section class="history-brand">
@@ -42,7 +44,7 @@
             <section class="description-model">
                 <h3>BMW Models</h3>
                 <div class="model">
-                    <img src="assets/images/bmw-3-Series.jpg" alt="BMW 3 Series">
+                    <img src="./assets/images/bmw-3-Series.jpg" alt="BMW 3 Series">
                     <div class="model-info">
                         <h4>BMW 3 Series</h4>
                         <p>The BMW 3 Series is a compact executive car that has been in production since 1975.
@@ -53,7 +55,7 @@
                     </div>
                 </div>
                 <div class="model">
-                    <img src="assets/images/bmw-5-series.jpg" alt="BMW 5 Series">
+                    <img src="./assets/images/bmw-5-series.jpg" alt="BMW 5 Series">
                     <div class="model-info">
                         <h4>BMW 5 Series</h4>
                         <p>The BMW 5 Series is a mid-size luxury sedan that has been in production since 1972.
@@ -80,7 +82,7 @@
         <article id="ford" class="car-brand">
             <a href="#" class="back-to-top">↑ Back to top</a>
              <div class="car-title">
-                <img class="icons-car" src="assets/icons/ford.png" alt="Ford Car">
+                <img class="icons-car" src="./assets/icons/ford.png" alt="Ford Car">
                 <h2>Ford</h2>
             </div>
             <section class="history-brand">
@@ -94,7 +96,7 @@
             <section class="description-model">
                 <h3>Ford Models</h3>
                 <div class="model">
-                    <img src="assets/images/ford-mustang.jpg" alt="Ford Mustang">
+                    <img src="./assets/images/ford-mustang.jpg" alt="Ford Mustang">
                     <div class="model-info">
                         <h4>Ford Mustang</h4>
                         <p>The Ford Mustang is an iconic American muscle car that has been in production since 1964.
@@ -105,7 +107,7 @@
                     </div>
                 </div>
                 <div class="model">
-                    <img src="assets/images/ford-f150.jpg" alt="Ford F-150">
+                    <img src="./assets/images/ford-f150.jpg" alt="Ford F-150">
                     <div class="model-info">
                         <h4>Ford F-150</h4>
                         <p>The Ford F-150 is a full-size pickup truck that has been in production since 1948.
@@ -132,7 +134,7 @@
         <article id="toyota" class="car-brand">
             <a href="#" class="back-to-top">↑ Back to top</a>
              <div class="car-title">
-                <img class="icons-car" src="assets/icons/toyota.png" alt="Toyota Car">
+                <img class="icons-car" src="./assets/icons/toyota.png" alt="Toyota Car">
                 <h2>Toyota</h2>
             </div>
             <section class="history-brand">
@@ -146,7 +148,7 @@
             <section class="description-model">
                 <h3>Toyota Models</h3>
                 <div class="model">
-                    <img src="assets/images/toyota-camry.jpg" alt="Toyota Camry">
+                    <img src="./assets/images/toyota-camry.jpg" alt="Toyota Camry">
                     <div class="model-info">
                         <h4>Toyota Camry</h4>
                         <p>The Toyota Camry is a mid-size sedan that has been in production since 1982.
@@ -156,7 +158,7 @@
                     </div>
                 </div>
                 <div class="model">
-                    <img src="assets/images/toyota-rav4.jpg" alt="Toyota RAV4">
+                    <img src="./assets/images/toyota-rav4.jpg" alt="Toyota RAV4">
                     <div class="model-info">
                         <h4>Toyota RAV4</h4>
                         <p>The Toyota RAV4 is a compact crossover SUV that has been in production since 1994.
@@ -178,7 +180,78 @@
             </section>
         </article>
     </main>
-
+      <table id="table" class="table">
+        <caption>
+          Table#2 Cars info
+        </caption>
+        <thead>
+          <tr>
+            <th rowspan="2">Brand</th>
+            <th rowspan="2">Model</th>
+            <th rowspan="2">Country</th>
+            <th colspan="2">Weight kg</th>
+            <th rowspan="2">Max speed</th>
+            <th rowspan="2">Realise year</th>
+          </tr>
+          <tr>
+            <th>empty</th>
+            <th>full</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="2">BMW</td>
+            <td>3 Series</td>
+            <td>Germany</td>
+            <td>1500</td>
+            <td>2000</td>
+            <td>250</td>
+            <td>2022</td>
+          </tr>
+          <tr>
+            <td>5 Series</td>
+            <td>Germany</td>
+            <td>1700</td>
+            <td>2200</td>
+            <td>240</td>
+            <td>2021</td>
+          </tr>
+          <tr>
+            <td rowspan="2">Ford</td>
+            <td>Mustang</td>
+            <td>USA</td>
+            <td>1600</td>
+            <td>2100</td>
+            <td>260</td>
+            <td>2020</td>
+          </tr>
+          <tr>
+            <td>F-150</td>
+            <td>USA</td>
+            <td>2000</td>
+            <td>3000</td>
+            <td>180</td>
+            <td>2019</td>
+          </tr>
+          <tr>
+            <td rowspan="2">Toyota</td>
+            <td>Camry</td>
+            <td>Japan</td>
+            <td>1400</td>
+            <td>1900</td>
+            <td>210</td>
+            <td>2021</td>
+          </tr>
+          <tr>
+            <td>RAV4</td>
+            <td>Japan</td>
+            <td>1600</td>
+            <td>2300</td>
+            <td>200</td>
+            <td>2020</td>
+          </tr>
+        </tbody>
+      </table>
     <footer>
         <address>
             <p>123 Car Street, Auto City, AC 12345</p>
@@ -194,9 +267,9 @@
             </div>
         </div>
         <div class="social-media">
-            <a href="#"><img src="assets/icons/facebook.png" alt="Facebook"></a>
-            <a href="#"><img src="assets/icons/twitter.png" alt="Twitter"></a>
-            <a href="#"><img src="assets/icons/instagram.png" alt="Instagram"></a>  
+            <a href="#"><img src="./assets/icons/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="./assets/icons/twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="./assets/icons/instagram.png" alt="Instagram"></a>  
         </div>
     </footer>
   </body>
